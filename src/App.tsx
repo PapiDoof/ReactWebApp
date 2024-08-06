@@ -1,6 +1,7 @@
-import Header from './Header.tsx'
-import Footer from './Footer.tsx';
+import Header from './Header/Header.tsx'
+import Footer from './Footer/Footer.tsx';
 import Button from  './Button/Button.tsx'
+
 
 function App() {
 
@@ -9,7 +10,6 @@ function App() {
       <Header/>
       <Button/>
       <Footer/>
-
     </>
   );
 }

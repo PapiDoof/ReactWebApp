@@ -1,0 +1,137 @@
+
+.card-container{
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: hsla(0, 0%, 100%, 0.822);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    border-color: hsla(0, 0%, 0%, 0.1);
+    text-align: left;
+    max-width: 550px;
+    min-width: fit-content;
+    display: list;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.card-container-alt{
+    border: 1px solid hsl(0, 0%, 80%);
+    background-color: hsla(0, 0%, 0%, 0.281);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 98%, 0.226);
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+    max-width: 550px;
+    min-width: fit-content;
+    display: list;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.name{
+    margin-top: -1px;
+    color: hsl(0, 6%, 10%);
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.name-alt{
+    margin-top: -1px;
+    color: hsl(0, 13%, 91%);
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.address{
+    font-family: "Helvetica";
+    color: hsl(0, 6%, 10%);
+    font-size: 13px;
+    margin-top: -2px
+}
+
+.job{
+    margin-top: -25px;
+    font-family: 'Helvetica';
+    font-style: italic;
+    color: hsla(190, 8%, 30%, 0.774);
+
+}
+
+.quote{
+    font-family: 'Helvetica';
+    font-style: italic;
+    text-align: right;
+    color: hsla(193, 7%, 39%, 0.747);
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.contact-button{
+    font-family: "Helvetica";
+    font-size: 10px;
+    font-weight: bold;
+    background: hsla(180, 5%, 8%, 0.863);
+    width: 150px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    border-color: hsla(195, 26%, 91%, 0.87);
+    text-transform: uppercase;
+    color: hsla(195, 26%, 91%, 0.87);
+    margin-left: 190px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+
+.info{
+    font-family: 'Helvetica';
+    color: hsla(195, 26%, 91%, 0.87);
+}
+
+.contact-button:hover, .contact-button:focus, .contact-button:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.contact-button-alt{
+    border-color: hsla(180, 5%, 8%, 0.863);
+    font-family: "Helvetica";
+    margin-left: 190px;
+    font-size: 10px;
+    font-weight: bold;
+    background: hsla(195, 26%, 91%, 0.87);
+    width: 150px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:hsla(180, 5%, 8%, 0.863);
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+
+.contact-button-alt:hover, .contact-button-alt:focus, .contact-button-alt:active{
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+

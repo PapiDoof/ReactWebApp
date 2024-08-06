@@ -1,3 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    
+    --background: linear-gradient(270deg, #2fbfeb, #2895f5);
+    background:hsla(180, 5%, 8%, 0.863);
+    
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+    margin :0;
+    padding: 0;
+    height: 100hv;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }

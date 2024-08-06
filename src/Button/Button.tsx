@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Card from '../Card/Card';
+import './index.css'
 
 type User = {
   id: number;
@@ -50,7 +51,7 @@ const Button = () => {
   return (
     <div>
       {!buttonHidden && (
-        <button onClick={handleButtonClick}>Fetch</button>
+        <button className="button" onClick={handleButtonClick}>Fetch</button>
       )}
       {isLoading ? (
         <p>Loading...</p>

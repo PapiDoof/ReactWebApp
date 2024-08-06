@@ -1,8 +1,9 @@
+import './index.css'
 
 function Footer() {
     return (
         <footer>
-            <p>&copy; {new Date().getFullYear()} PapiDoof</p>
+            <p className="footer">&copy; {new Date().getFullYear()} PapiDoof</p>
         </footer>
         );
     }

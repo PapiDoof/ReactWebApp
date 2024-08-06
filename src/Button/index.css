@@ -1,0 +1,31 @@
+
+.button:hover, .button:focus, .button:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.button{
+    font-family: "Helvetica";
+    font-size: 15px;
+    font-weight: bold;
+    background: hsla(195, 26%, 91%, 0.87);
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-color: hsla(195, 26%, 91%, 0.87);
+    text-transform: uppercase;
+    color: hsla(180, 5%, 8%, 0.863);
+    margin-left: 190px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
